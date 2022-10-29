@@ -33,7 +33,7 @@ sudo mv composer.phar /usr/local/bin/composer
 ```
 export path to ```.bash_profile```
 ```
-export PATH="~/.config/composer/vendor/bin:$PATH"
+export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 ```
 ## version
 ```
