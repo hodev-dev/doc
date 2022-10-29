@@ -6,14 +6,16 @@ sudo apt install zsh bash git
 ```
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
-
+## theme
+```
+cypher
+```
 ## plugins
 open ```.zshrc``` change plugin line
 
 ```
 plugins=(git sudo colorize command-not-found jump node zsh-navigation-tools)
 ```
-
 ## Github repo of plugins
 ### colorize
 ```
