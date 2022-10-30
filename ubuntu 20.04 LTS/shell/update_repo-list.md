@@ -6,12 +6,12 @@ sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup
 ```
 
 ## for change 
-1- s/http:\/\/ (search)
-2- /http:\/\/ir./g (replace)
+- ```s/http:\/\/``` search for match
+- ```/http:\/\/ir./g``` replace match with
 ```
 sudo sed  's/http:\/\//http:\/\/ir./g' /etc/apt/sources.list
 ```
-## -i replace file
+## -i change file without -i nothign change only show result
 ```
 sudo -i sed  's/http:\/\//http:\/\/ir./g' /etc/apt/sources.list
 ```
