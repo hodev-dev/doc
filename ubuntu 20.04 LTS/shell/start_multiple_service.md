@@ -1,4 +1,7 @@
+# start multiple service or server with one command
+```
 nano dev.sh
+```
 ```
 !#/bin/bash
 php artisan serve &
