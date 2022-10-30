@@ -8,3 +8,12 @@ php artisan breeze:install react --ssr
 npm install && npm run build
 node bootstrap/ssr/ssr.mjs
 ```
+to run server
+```
+php artisan serve
+```
+
+**for hot reload**
+```
+npm run dev
+```
